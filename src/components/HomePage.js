@@ -3,6 +3,7 @@ import {useState, useEffect} from 'react'
 import {BrowserRouter as Router, Switch, Route, Link, Redirect, useLocation} from "react-router-dom";
 import mmologo from '../assets/mmologo.png'
 import socketIOClient from "socket.io-client";
+import GameComponent from '../game/GameComponent';
 const ENDPOINT = "http://127.0.0.1:8081";
 
 const HomePage = ()=>{
@@ -28,7 +29,7 @@ const HomePage = ()=>{
             <div className="wrapper" style={{marginTop: "25px"}}>
                 <div className="contentContainer">
                     <div className="wrapper"><h4>Home Page</h4></div>
-                    <p className="wrapper">some content will be here</p>
+                    <GameComponent/>
                 </div>
             </div>
         </div>
