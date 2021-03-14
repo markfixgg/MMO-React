@@ -36,7 +36,7 @@
        {
        "columns":8,
        "firstgid":1,
-       "image":"assets/grass.png",
+       "image":"/src/assets/grass.png",
        "imageheight":2112,
        "imagewidth":256,
        "margin":0,
@@ -49,7 +49,7 @@
        {
        "columns":1,
        "firstgid":529,
-       "image":"assets/grass2.png",
+       "image":"/src/assets/grass2.png",
        "imageheight":160,
        "imagewidth":32,
        "margin":0,
